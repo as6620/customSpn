@@ -10,8 +10,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
-    Spinner spin; // מערך של עצמים
+public class MainActivity extends AppCompatActivity { // מערך של עצמים
+    Spinner spin;
     TextView tV;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
         spin = (Spinner) findViewById(R.id.spin);
         tV = (TextView) findViewById(R.id.tV);
-
+        
     }
 }
